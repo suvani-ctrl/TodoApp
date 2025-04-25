@@ -1,5 +1,5 @@
 
-```markdown
+
 # TodoApp
 
 A simple Todo list application built with React. This app allows users to manage their tasks efficiently by adding, completing, and deleting tasks, along with a filtering feature to sort tasks based on their completion status.
@@ -52,7 +52,7 @@ Visit [http://localhost:3000](http://localhost:5173) in your browser to see the 
 - **Local Storage** to persist tasks across sessions.
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IMAGES
 
 ![image](https://github.com/user-attachments/assets/11bff66b-bada-4f98-a1e3-e5895ef9490c)
 ![image](https://github.com/user-attachments/assets/fce00f9a-589e-4a81-a8bf-ecd1fb05ea67)
