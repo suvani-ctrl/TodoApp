@@ -1,16 +1,15 @@
 
-
 # TodoApp
 
-A simple Todo list application built with React. This app allows users to manage their tasks efficiently by adding, completing, and deleting tasks, along with a filtering feature to sort tasks based on their completion status.
+A simple Todo list application built with **React**. This app allows users to manage their tasks efficiently by adding, completing, and deleting tasks. Additionally, it includes a filtering feature to sort tasks based on their completion status, and data is saved in the browser's local storage for persistence.
 
 ## Features
 
-- **Add Tasks**: Quickly add new tasks.
-- **Mark Tasks as Complete**: Toggle task completion.
-- **Delete Tasks**: Remove tasks from the list.
-- **Filter Tasks**: View tasks by status (All, Open, Completed).
-- **Persistent Data**: Tasks are saved in the browser’s local storage.
+- **Add Tasks**: Quickly add new tasks to your list.
+- **Mark Tasks as Complete**: Toggle the task completion status.
+- **Delete Tasks**: Easily remove tasks from the list.
+- **Filter Tasks**: View tasks based on their status (All, Open, Completed).
+- **Persistent Data**: Tasks are saved to your browser's local storage and remain even after a page reload.
 
 ## Installation
 
@@ -20,7 +19,7 @@ A simple Todo list application built with React. This app allows users to manage
    git clone https://github.com/suvani-ctrl/TodoApp.git
    ```
 
-2. Install dependencies:
+2. Install the dependencies:
 
    ```bash
    npm install
@@ -36,37 +35,43 @@ A simple Todo list application built with React. This app allows users to manage
    yarn start
    ```
 
-Visit [http://localhost:3000](http://localhost:5173) in your browser to see the app.
+4. Visit [http://localhost:5173](http://localhost:5173) in your browser to view the app.
 
 ## Usage
 
-1. Add new tasks by typing into the input field and clicking the “Add” button.
-2. Mark tasks as completed by clicking the “Done” button next to them.
-3. Delete tasks using the “Delete” button.
-4. Filter tasks by clicking on the “All”, “Open”, or “Completed” tabs.
+1. **Add New Tasks**: Type into the input field and click the "Add" button to add new tasks.
+2. **Mark Tasks as Complete**: Click the "Done" button next to a task to mark it as completed.
+3. **Delete Tasks**: Use the "Delete" button to remove a task.
+4. **Filter Tasks**: Click on "All", "Open", or "Completed" tabs to view filtered tasks based on their completion status.
 
 ## Tech Stack
 
-- **React** for the user interface.
-- **Vite** for fast development.
-- **Local Storage** to persist tasks across sessions.
+- **React**: For building the user interface.
+- **Vite**: For fast development and bundling.
+- **Local Storage**: For saving and persisting tasks across sessions.
 
+## Screenshots
 
-IMAGES
+### General View
+
+Here is the default view of the TodoApp, where you can see all tasks.
 
 ![image](https://github.com/user-attachments/assets/11bff66b-bada-4f98-a1e3-e5895ef9490c)
-![image](https://github.com/user-attachments/assets/fce00f9a-589e-4a81-a8bf-ecd1fb05ea67)
-![image](https://github.com/user-attachments/assets/6c526298-16dd-4fc7-8692-5277309425f7)
 
-Button done 
+### Button to Mark as Done
+
+This is how the "Done" button looks for marking tasks as complete.
+
 ![image](https://github.com/user-attachments/assets/99c175cf-d2b5-40a8-ab44-dc5109f5d7c5)
-![image](https://github.com/user-attachments/assets/d844dde1-1737-4443-b638-7b6462008e72)
 
-After Deletion
+### After Task Deletion
+
+Tasks can be deleted, and the UI will update accordingly. Here’s the view after a task is removed.
+
 ![image](https://github.com/user-attachments/assets/63077177-9189-4d3c-83d2-8bbd7c325a43)
-![image](https://github.com/user-attachments/assets/6bb299d6-c757-49c9-85a1-fd7c424c33e8)
 
-Local Storage
+### Local Storage Persistence
+
+Tasks are saved to local storage, ensuring that they persist even after a page reload.
+
 ![image](https://github.com/user-attachments/assets/c0892935-9076-48e7-b4d1-c21024ba2d62)
-
-
